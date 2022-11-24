@@ -38,7 +38,7 @@ class Settings extends StatelessWidget {
             const SizedBox(height: 25,),
       
             const Center(
-              child: Text('ABDULSELAM KEMAL',
+              child: Text('ABDELSELAM KEMAL',
                 style: TextStyle(
                   fontSize: 25.0,
                   fontWeight: FontWeight.w500
@@ -56,34 +56,32 @@ class Settings extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 5,),
-            Center(
+
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 100.0),
               child: Container(
-                width: 100,
-                height: 30,
                 decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
                   color: Colors.green,
-                  borderRadius: BorderRadius.circular(30)
                 ),
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                    children: const [
-                      Text('Edit Profile',
+                child: Row(
+                  children: const [
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Text('Edit Profile',
                         style: TextStyle(
                           color: Colors.white
                         ),
                       ),
-                      SizedBox(width: 8,),
-                      Icon(Icons.arrow_forward_ios_sharp,
-                        color: Colors.white,
-                        size: 15,
-                      )
-                    ],
-                  ),
+                    ),
+                    Icon(Icons.arrow_forward_ios_rounded,
+                    size: 15,
+                      color: Colors.white,
+                    )
+                  ],
                 ),
               ),
             ),
-      
             const SizedBox(height: 30.0,),
             const Padding(
               padding: EdgeInsets.only(left: 10.0),

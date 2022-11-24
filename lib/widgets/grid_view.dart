@@ -27,7 +27,7 @@ class GridWidget extends StatelessWidget {
                 Text(
                   title,
                   style: const TextStyle(
-                    fontSize: 18,
+                    fontSize: 12,
                     fontWeight: FontWeight.w600
                   ),
                 )
